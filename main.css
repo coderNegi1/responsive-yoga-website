@@ -1,0 +1,310 @@
+/* common css */
+* {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+* p {
+    font-size: 18px;
+}
+
+
+.themecolor {
+    color: #0389FF;
+}
+
+
+/* navbar css */
+
+.navbar {
+    background-color: #0389FF;
+}
+
+.navbar-nav li a {
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    box-sizing: border-box;
+}
+
+.themebutton {
+    text-align: center;
+    background-color: #000000;
+    color: white;
+    padding: 10px 35px;
+}
+
+.themebutton:hover {
+    box-shadow: rgba(0, 0, 0, 0.64) 0px 3px 8px;
+    color: black;
+}
+
+
+
+
+/* hero section css */
+
+.herosec {
+    background-size: cover;
+    background-color: #A7D6FF;
+    background-repeat: no-repeat;
+    height: 630px;
+    color: black;
+}
+
+.herosec p {
+    text-align: justify;
+    color: rgb(11, 2, 2);
+}
+
+.herosec h1 {
+    color: rgb(12, 53, 102);
+}
+
+
+/* about section css */
+
+.para {
+    text-align: justify;
+    font-size: 18px;
+}
+
+.aboutimg {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.about ul li {
+    margin-left: 20px;
+}
+
+.programs ul li {
+    font-size: 18px;
+    line-height: 2;
+}
+
+
+/* yoga guru css */
+.teachericon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    filter: contrast(0);
+    filter: brightness(0);
+}
+
+
+/* testimonial css */
+
+@media (max-width: 800px) {
+    .carousel-inner .carousel-item>div {
+        display: none;
+    }
+
+    .carousel-inner .carousel-item>div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+.card {
+    margin: 10px;
+    padding: 10px;
+}
+
+.testimonial-card {
+    border-radius: 15px;
+    padding: 20px;
+    width: 400px;
+    margin: 20px;
+    position: relative;
+}
+
+.testimonial-card img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    top: -30px;
+    left: 20px;
+    border: 3px solid rgb(13, 13, 13);
+}
+
+.testimonial-card .stars {
+    color: gold;
+}
+
+
+
+/* price section css */
+
+.pricing-card {
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+    background-image: linear-gradient(140deg,  #FFFFFF ,#999999);
+}
+
+.price_hight {
+    min-height: 450px;
+}
+
+.price_hight:hover {
+    box-shadow: #0042d0a9 0px 0px 40px 0px;
+}
+
+.popular-plan {
+    background-image: linear-gradient(130deg,  #FFCC85 ,#FFFFFF );
+}
+
+.pricing-card.most-popular {
+    border: 2px solid #007bff;
+}
+
+.pricing-card .circle {
+    width: 40px;
+    height: 40px;
+    background-color: #0a09099b;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circlem {
+    width: 50px !important;
+    height: 50px !important;
+}
+
+.pricing-card.most-popular .circle {
+    background-color: #007bff;
+    color: white;
+}
+
+.pricing-card .price {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.pricing-card .features {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.pricing-card .features li {
+    list-style: none;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.pricing-card .most-popular-label {
+    position: absolute;
+    top: 35px;
+    right: 10px;
+    background-color: #0a0909;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 30px;
+    font-size: 12px;
+}
+
+.most-popular-label {
+    box-shadow: rgba(47, 47, 201, 0.2) 0px 5px 15px;
+}
+
+.most-popular {
+    box-shadow: rgba(47, 47, 201, 0.5) 0px 7px 29px 0px;
+}
+
+.most-popular:hover {
+    box-shadow: rgba(47, 47, 201, 0.5) 0px;
+}
+
+.line {
+    width: 25%;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    border: 1px solid black;
+    margin-top: 0;
+}
+
+
+/* FaQ section css */
+
+@media (max-width: 800px) {
+    .accordion {
+        width: 100%;
+    }
+}
+
+.accordion {
+    width: 75%;
+}
+
+
+/* Footer section css */
+
+footer a{
+    text-decoration: none;
+}
+.footerhr {
+    width: 60px;
+    background-color: #971a11;
+    height: 2px;
+}
+
+@media (max-width: 800px) {
+    .footerhr {
+        margin: auto;
+    }
+}
+
+
+/* go to top whatssapp    and model css*/
+.whatsapp {
+    position: fixed;
+    bottom: 40px;
+    right: 50px;
+    height: 50px;
+    width: 50px;
+    z-index: 1;
+}
+
+.contact-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.contact-form h3 {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+/* contact page css */
+.contact-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.contact-info {
+    padding: 30px;
+}
+
+.contact-info h3 {
+    margin-bottom: 20px;
+}
